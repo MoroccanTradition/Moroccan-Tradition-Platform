@@ -1,0 +1,39 @@
+:root {
+  --moroccan-red: #8B0000;
+  --gold: #D4AF37;
+  --terracotta: #E2725B;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.bg-moroccan-pattern {
+  background-image: url('/assets/moroccan-pattern.png');
+  opacity: 0.1;
+}
+
+.btn-warning {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+}
+
+.text-warning {
+  color: var(--gold) !important;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.navbar {
+  border-bottom: 3px solid var(--gold);
+}

@@ -1,0 +1,86 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "admin",
+        "email": "admin@riad.ma",
+        "password": "admin123",
+        "role": "admin",
+        "firstName": "Admin",
+        "lastName": "User",
+        "address": "Marrakech Medina",
+        "phone": "+212600000000",
+        "createdAt": "2023-01-01"
+      },
+      {
+        "id": 2,
+        "username": "customer1",
+        "email": "customer@riad.ma",
+        "password": "customer123",
+        "role": "customer",
+        "firstName": "Ahmed",
+        "lastName": "Amrani",
+        "address": "12 Derb Sidi Boulouakte",
+        "phone": "+212612345678",
+        "createdAt": "2023-01-02"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Hand-painted Tajine",
+        "description": "Traditional clay cooking pot with geometric patterns",
+        "price": 45.99,
+        "category": "tajine",
+        "stockQuantity": 20,
+        "imageUrl": "/images/tajine1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Berber Rug",
+        "description": "Authentic hand-woven wool rug",
+        "price": 199.99,
+        "category": "decor",
+        "stockQuantity": 8,
+        "imageUrl": "/images/rug1.jpg"
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "customerId": 2,
+        "orderDate": "2023-10-01",
+        "totalAmount": 245.98,
+        "status": "pending",
+        "items": [
+          {
+            "productId": 1,
+            "quantity": 2,
+            "priceAtPurchase": 45.99
+          }
+        ]
+      }
+    ],
+    "riads": [
+      {
+        "id": 1,
+        "name": "Riad Dar Zaman",
+        "address": "24 Derb Cherkaoui, Fes",
+        "description": "16th-century palace with Andalusian gardens",
+        "capacity": 30,
+        "imageUrl": "/images/riad1.jpg"
+      }
+    ],
+    "announcements": [
+      {
+        "id": 1,
+        "title": "Traditional Gnawa Music Night",
+        "description": "Live performance with master musician Ahmed El Maallem",
+        "date": "2023-12-15T19:00:00Z",
+        "riadId": 1,
+        "createdByAdminId": 1,
+        "imageUrl": "/images/gnawa-night.jpg"
+      }
+    ]
+  }
+
